@@ -1,22 +1,215 @@
-.App {
+*{
+ margin: 0px;
+ padding: 0px; 
+ box-sizing: border-box;
+}
+
+h2{
+  color: rgb(58, 179, 45);
+}
+
+a{
+  text-decoration: none;
+  color: rgb(58, 179, 45);
+}
+
+li{
+  list-style: none;
+}
+
+.small{
+  font-size: 0.8em
+}
+
+header{
+  font-family: "Amatic SC", coursive;
+  filter: brightness(80%);
+  font-size: 1.2em;
+  padding-right: 5vw;
+  padding-top: 10vh;
+  text-align: right;
+  color: rgb(210, 253, 205);
+  height: 25vh;
+  width: 100%;
+  background: url("/landscape.jpg") no-repeat 50% 20%;
+  border-bottom: 2px solid black;
+}
+
+main{
+  font-family: "Oswald", sans-serif;
+  padding: 0 3vw;
+  width: 100%;
+  display: flex;
+}
+
+.basic-info-div{
+  position: relative;
+  bottom: 7.5vw;
+  width: 30vw;
+}
+
+.basic-info-div p, .basic-info-div a{
+  display: block;
+  margin: 2vh 0;
+}
+
+.fa-home{
+  position: relative;
+  bottom: 1px;
+  margin-left: 15px;
+}
+
+img{
+  position: relative;
+  left: 5vw;
+  border-radius: 50%;
+  border: 3px solid black;
+  width: 15vw;
+}
+
+.displayer{
+  padding-top: 3vh;
+  margin: 0 5vw;
+  width: 65vw;
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
+.displayer p{
+  font-family: "Open Sans", sans-serif;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.navBar-div{
+  display: flex;
+  justify-content: space-around;
+  font-size: 1.3em;
+  margin-bottom: 8vh;
+}
+
+.about-me-section{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.border{
+  padding-bottom: 7vh; 
+  margin-bottom: 5vh;
+  border-bottom: 1px solid rgb(204, 204, 204)
+}
+
+.about-title{
+  display: inline-block;
+  width: 10vw;
+}
+
+.about-content{
+  position: relative;
+  top: 10px;
+  width: 40vw;
+  text-align: left;
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+}
+
+.about-content li{
+  margin-bottom: 10px;
+}
+
+.input{
+  font-family: inherit;
+  width: 100%;
+  border: 2px solid rgb(58, 179, 45);
+  border-radius: 5px;
+  margin: 1vh 0;
+  padding: 5px 15px;
+  text-align: center;
+}
+
+.project-container{
   display: flex;
   flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+}
+
+.project-box{
+  margin-bottom: 8vh;
+  margin-top: 5vh;
+  width: 35vw;
+  height: 15vw;
+}
+
+.project-box p{
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.project-image{
+  width: 100%;
+  height: 100%;
+  border-radius: 3px;
+  transition: 1s;
+}
+
+.carpool{
+  background: url("/carpool.jpg") no-repeat center center;
+  background-size: cover;
+}
+
+.iron-y{
+  background: url("/iron-y.jpg") no-repeat center center;
+  background-size: cover;
+}
+
+.be-hoppy{
+  background: url("/be-hoppy.jpg") no-repeat center center;
+  background-size: cover;
+}
+
+.project-box:hover .project-info{
+  z-index: 2;
   color: white;
 }
 
-.App-link {
-  color: #09d3ac;
+.project-box:hover .project-image{ 
+  filter: brightness(10%)
+}
+
+.project-info{
+  color: transparent;
+  position: relative;
+  bottom: 12vw;
+  transition: 1.5s;
+  padding: 0 3vw;
+}
+
+.project-info a{
+  color: transparent;
+  transition: 1.5s;
+}
+
+.project-box:hover a{
+  color: rgb(58, 179, 45);
+}
+
+.card {
+  display: block;
+  margin: auto;
+  padding-left: 3vw;
+  padding-right: 3vw;
+  width: 50vw;
+  padding-bottom: 5vh;
+  border-bottom: 1px solid rgb(204, 204, 204);
+  margin-bottom: 5vh;
+}
+.card ul{
+  margin-top: 3vh;
+}
+
+.card li{
+  margin: 15px;
+}
+
+.card > p{
+  margin-top: 3vh;
 }

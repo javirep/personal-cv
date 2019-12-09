@@ -1,0 +1,62 @@
+[
+    {
+        "name": "javaScript",
+        "type": "technology"
+    },
+    {
+        "name": "HTML",
+        "type": "technology"
+    },
+    {
+        "name": "CSS",
+        "type": "technology"
+    },
+    {
+        "name": "Bootstrap",
+        "type": "technology"
+    },
+    {
+        "name": "Handlebars",
+        "type": "technology"
+    },
+    {
+        "name": "NPM",
+        "type": "technology"
+    },
+    {
+        "name": "MongoDB",
+        "type": "technology"
+    },
+    {
+        "name": "React",
+        "type": "technology"
+    },
+    {
+        "name": "Express",
+        "type": "technology"
+    },
+    {
+        "name": "Github",
+        "type": "technology"
+    },
+    {
+        "name": "MERN",
+        "type": "technology"
+    },
+    {
+        "name": "Communication",
+        "type": "softSkill"
+    },
+    {
+        "name": "Fast Learning",
+        "type": "softSkill"
+    },
+    {
+        "name": "Problem Solving",
+        "type": "softSkill"
+    },
+    {
+        "name": "Agile Methodologies",
+        "type": "softSkill"
+    }
+]
